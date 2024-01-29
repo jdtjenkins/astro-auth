@@ -1,4 +1,4 @@
-# `package-name`
+# `astro-auth`
 
 This is an [Astro integration](https://docs.astro.build/en/guides/integrations-guide/) that TODO:description
 
@@ -13,15 +13,15 @@ TODO:
 Install the integration **automatically** using the Astro CLI:
 
 ```bash
-pnpm astro add package-name
+pnpm astro add astro-auth
 ```
 
 ```bash
-npm astro add package-name
+npm astro add astro-auth
 ```
 
 ```bash
-yarn astro add package-name
+yarn astro add astro-auth
 ```
 
 Or install it **manually**:
@@ -29,21 +29,21 @@ Or install it **manually**:
 1. Install the required dependencies
 
 ```bash
-pnpm add package-name
+pnpm add astro-auth
 ```
 
 ```bash
-npm install package-name
+npm install astro-auth
 ```
 
 ```bash
-yarn add package-name
+yarn add astro-auth
 ```
 
 2. Add the integration to your astro config
 
 ```diff
-+import integration from "package-name";
++import integration from "astro-auth";
 
 export default defineConfig({
   integrations: [

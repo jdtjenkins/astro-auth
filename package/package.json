@@ -1,5 +1,5 @@
 {
-  "name": "package-name",
+  "name": "astro-auth",
   "version": "0.0.0",
   "description": "TODO:",
   "author": {
@@ -23,12 +23,13 @@
   "exports": {
     ".": "./src/index.ts"
   },
+  "files": [],
   "scripts": {},
   "type": "module",
   "peerDependencies": {
     "astro": "^4.0.0"
   },
   "dependencies": {
-    "astro-integration-kit": "^0.0.2"
+    "astro-integration-kit": "^0.0.9"
   }
 }

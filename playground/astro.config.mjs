@@ -1,6 +1,6 @@
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
-import packageName from "package-name";
+import packageName from "astro-auth";
 
 // https://astro.build/config
 export default defineConfig({
